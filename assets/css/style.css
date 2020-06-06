@@ -1,3 +1,62 @@
 * {
   box-sizing: border-box;
 }
+
+#container {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: whitesmoke;
+}
+
+#header {
+  display: block;
+  height: 50px;
+  background-color: white;
+}
+
+.left-menu {
+  float: left;
+}
+
+.left-menu a {
+  color: black;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.right-menu {
+  float: right;
+  width: 275px;
+}
+
+.right-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-menu div {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.rmenu-link {
+  color: black;
+}
+
+#gallery-link {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+#profile-link img {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid black;
+}

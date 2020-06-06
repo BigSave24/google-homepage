@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Google Homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
     <div id="container">
-      <header>
-        <div class="right-menu">
-          Right Menu
+      <header id="header">
+        <div class="left-menu">
           <a href="#">About</a>
           <a href="#">Store</a>
         </div>
-        <div class="left-menu">
-          Left Menu
-          <div>Gmail</div>
-          <div>Images</div>
-          <div>
-            <div>Gallery</div>
-            <div>Profile Icon</div>
+        <div class="right-menu">
+          <div class="rmenu-link">
+            <a href="#">Gmail</a>
+          </div>
+          <div class="rmenu-link">
+            <a href="#">Images</a>
+          </div>
+          <div class="rmenu-link">
+            <div id="gallery-link">
+              <a href="#">
+                <i class="fa fa-th-large" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div id="profile-link">
+              <a href="#">
+                <img
+                  src="https://icons.iconarchive.com/icons/tatice/operating-systems/256/Linux-icon.png"
+                  alt="Linux Penguin"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </header>
