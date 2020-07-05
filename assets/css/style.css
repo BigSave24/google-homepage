@@ -21,7 +21,9 @@ body {
 }
 
 .left-menu {
-  float: left;s
+  float: left;
+  margin-left: 20px;
+  padding-top: 15px;
 }
 
 .left-menu a {
@@ -35,7 +37,8 @@ body {
 
 .right-menu {
   float: right;
-  width: 275px;
+  padding-top: 15px;
+  width: 230px;
 }
 
 .right-menu a {
@@ -61,8 +64,8 @@ body {
 }
 
 #profile-link img {
-  width: 25px;
-  height: 25px;
+  width: 27px;
+  height: 27px;
   margin: 0 auto;
   border-radius: 50%;
   border: 1px solid black;
