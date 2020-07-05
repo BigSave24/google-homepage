@@ -86,7 +86,7 @@ body {
   margin: 175px auto 25px;
   width: 272px;
   height: 92px;
-  background-image: url(./images/googlelogo_color_272x92dp.png);
+  background-image: url(/assets/images/googlelogo_color_272x92dp.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
