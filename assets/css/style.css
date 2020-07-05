@@ -15,15 +15,17 @@ body {
 
 #header {
   display: block;
+  min-width: 800px;
   height: 50px;
   background-color: white;
 }
 
 .left-menu {
-  float: left;
+  float: left;s
 }
 
 .left-menu a {
+  font-size: 0.9em;
   color: black;
   display: inline-block;
   margin: 0 10px;
@@ -37,6 +39,7 @@ body {
 }
 
 .right-menu a {
+  font-size: 0.9em;
   text-decoration: none;
   color: black;
 }
